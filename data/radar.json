@@ -1,18 +1,21 @@
 {
-  "_uitleg": "Scores: 2 = sterk, 1 = gemiddeld, 0 = zwak. Volgorde: data in/uit, objectief, al uitbesteed, betaalt, volume. 'speler' leeg laten = witte vlek.",
+  "_uitleg": "Scores: 2 = sterk, 1 = gemiddeld, 0 = zwak. Volgorde: data in/uit, objectief, al uitbesteed, betaalt, volume. 'speler' leeg = opportuniteit. 'moeilijk': true zet de dienst bij de moeilijkere matches; 'uitdaging' legt uit waarom.",
   "diensten": [
-    { "dienst": "Boekhouding voor een niche", "scores": [2, 2, 2, 1, 2], "speler": "Die van de boekhouding", "url": "https://www.dievandeboekhouding.be/" },
-    { "dienst": "Contractreview B2B", "scores": [2, 1, 2, 2, 2], "speler": "Falcon", "url": "https://www.falcon.law/" },
-    { "dienst": "M&A due diligence en datarooms", "scores": [2, 1, 2, 2, 1], "speler": "Duely", "url": "https://www.duely.ai/" },
-    { "dienst": "Calculatie van aanbestedingen", "scores": [2, 2, 1, 2, 2], "speler": "Estimore", "url": "https://www.estimore.com/" },
-    { "dienst": "Subsidiedossiers", "scores": [2, 1, 2, 2, 1] },
-    { "dienst": "Tenderteksten en offertedossiers", "scores": [2, 1, 1, 2, 2] },
-    { "dienst": "Loonadministratie voor een niche", "scores": [2, 2, 2, 1, 2] },
-    { "dienst": "GDPR- en NIS2-compliancedossiers", "scores": [2, 2, 1, 2, 1] },
-    { "dienst": "CSRD/ESG-rapportering voor KMO's", "scores": [2, 1, 1, 1, 1] },
-    { "dienst": "Beëdigde en juridische vertaling", "scores": [2, 2, 2, 1, 2] },
-    { "dienst": "Merk- en octrooiaanvragen", "scores": [2, 2, 2, 2, 1] },
-    { "dienst": "Debiteurenbeheer en incasso", "scores": [2, 2, 2, 1, 2] },
-    { "dienst": "Douane-aangiftes", "scores": [2, 2, 2, 1, 2] }
+    {"dienst": "Boekhouding voor een niche", "scores": [2, 2, 2, 1, 2], "speler": "Die van de boekhouding", "url": "https://www.dievandeboekhouding.be/"},
+    {"dienst": "Contractreview B2B", "scores": [2, 1, 2, 2, 2], "speler": "Falcon", "url": "https://www.falcon.law/"},
+    {"dienst": "M&A due diligence en datarooms", "scores": [2, 1, 2, 2, 1], "speler": "Duely", "url": "https://www.duely.ai/"},
+    {"dienst": "Calculatie van aanbestedingen", "scores": [2, 2, 1, 2, 2], "speler": "Estimore", "url": "https://www.estimore.com/"},
+    {"dienst": "Subsidiedossiers", "scores": [2, 1, 2, 2, 1]},
+    {"dienst": "Tenderteksten en offertedossiers", "scores": [2, 1, 1, 2, 2]},
+    {"dienst": "Loonadministratie voor een niche", "scores": [2, 2, 2, 1, 2]},
+    {"dienst": "GDPR- en NIS2-compliancedossiers", "scores": [2, 2, 1, 2, 1]},
+    {"dienst": "CSRD/ESG-rapportering voor KMO's", "scores": [2, 1, 1, 1, 1]},
+    {"dienst": "Beëdigde en juridische vertaling", "scores": [2, 2, 2, 1, 2]},
+    {"dienst": "Merk- en octrooiaanvragen", "scores": [2, 2, 2, 2, 1]},
+    {"dienst": "Debiteurenbeheer en incasso", "scores": [2, 2, 2, 1, 2]},
+    {"dienst": "Douane-aangiftes", "scores": [2, 2, 2, 1, 2]},
+    {"dienst": "Verzekeringsmakelaar (KMO)", "scores": [2, 1, 2, 2, 2], "uitdaging": "Polissen vergelijken en offertes opmaken leent zich goed. Maar: FSMA-inschrijving verplicht, verloning via commissie van de verzekeraar (de klant betaalt niet rechtstreeks) en bij schadegevallen gaat het om vertrouwen en emotie. Bestaande makelaars zitten vast op hun portefeuille."},
+    {"dienst": "Immomakelaar", "scores": [0, 0, 2, 2, 1], "moeilijk": true, "uitdaging": "Bezichtigingen en plaatsbezoeken zijn fysiek, de aan- of verkoop van een huis is emotioneel en de prijs onderhandelen is subjectief. Kansrijker: enkel de digitale backoffice (dossier, attesten, advertentie, opvolging)."},
+    {"dienst": "Notaris", "scores": [1, 2, 2, 2, 2], "moeilijk": true, "uitdaging": "Je moet benoemd zijn: er geldt een numerus clausus en een benoeming na examen, en Fednot vertegenwoordigt het beroep. Ook de erelonen liggen wettelijk vast, dus concurreren op prijs kan niet. Kansrijker: samenwerken met een notariskantoor dat het werk als AI-native kantoor wil uitbouwen."}
   ]
 }
