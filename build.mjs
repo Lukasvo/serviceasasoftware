@@ -24,14 +24,20 @@ const criteria = site.criteria.map((c, i) => `
           <p>${esc(c.body)}</p>
         </div>`).join('');
 
-const radarRows = radar.map((r) => `
+const radarRow = (r) => `
             <tr>
-              <th scope="row">${esc(r.dienst)}</th>
+              <th scope="row">${esc(r.dienst)}${r.uitdaging ? `<small class="challenge">${esc(r.uitdaging)}</small>` : ''}</th>
               ${r.scores.map((s) => `<td class="c"><span class="dot ${DOT[s]}" role="img" aria-label="${LABEL[s]}"></span></td>`).join('')}
               <td>${r.speler
                 ? `<a href="${esc(r.url)}">${esc(r.speler)}</a>`
-                : '<span class="gap">Witte vlek</span>'}</td>
-            </tr>`).join('');
+                : '<span class="gap">Opportuniteit?</span>'}</td>
+            </tr>`;
+const groupRow = (label) => `
+            <tr class="group"><th scope="rowgroup" colspan="${KOLOMMEN.length + 2}">${label}</th></tr>`;
+const goed = radar.filter((r) => !r.moeilijk);
+const moeilijk = radar.filter((r) => r.moeilijk);
+const radarRows = groupRow('Goede kandidaten') + goed.map(radarRow).join('')
+  + (moeilijk.length ? groupRow('Moeilijkere matches') + moeilijk.map(radarRow).join('') : '');
 
 const spelerCards = spelers.map((p) => `
         <article class="card player">
@@ -67,6 +73,12 @@ const html = `<!doctype html>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="/styles.css">
+<style>
+/* Radar: groepen en uitdagingen */
+.radar tr.group { background: var(--paper); }
+.radar tr.group th { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 500; padding-top: 12px; padding-bottom: 12px; }
+.challenge { display: block; margin-top: 4px; font-size: 13px; line-height: 1.45; color: var(--muted); font-weight: 400; max-width: 46ch; }
+</style>
 </head>
 <body>
 
@@ -167,7 +179,7 @@ const html = `<!doctype html>
       <div class="head">
         <span class="eyebrow">03 · Idee-radar</span>
         <h2>Welke diensten komen in aanmerking?</h2>
-        <p>Een eerste inschatting, open voor discussie. Een witte vlek betekent: in België doet nog niemand dit volgens het model.</p>
+        <p>Een eerste inschatting, open voor discussie. Staat er “Opportuniteit?”, dan vonden we nog geen Belgische speler die dit volgens het model doet.</p>
       </div>
       <ul class="legend" aria-label="Legende">
         <li><span class="dot sterk" aria-hidden="true"></span>Sterk</li>
