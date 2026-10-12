@@ -1,0 +1,20 @@
+{
+  "criteria": [
+    { "title": "Enkel data in, data uit?", "body": "Geen werfbezoek, geen fysieke meetings. Alles komt digitaal binnen en gaat digitaal buiten." },
+    { "title": "Objectief toetsbaar?", "body": "Kan een expert snel zien of het resultaat juist of fout is? Weinig emotie, weinig subjectiviteit." },
+    { "title": "Wordt het al uitbesteed?", "body": "Een matuur servicemodel: klanten zijn gewend om dit werk door iemand anders te laten doen." },
+    { "title": "Genoeg betalingsbereidheid?", "body": "Wordt er vandaag goed voor betaald? Kan je winstgevend zijn vanaf de eerste klant?" },
+    { "title": "Niche, maar groot genoeg?", "body": "Start smal en word de beste in één ding. Breid je scope pas daarna uit." },
+    { "title": "Repetitief volume?", "body": "Telkens hetzelfde type dossier, zodat je machine bij elke opdracht slimmer wordt." },
+    { "title": "Schaarste aan vakmensen?", "body": "Als klanten moeilijk goede mensen vinden, is een betrouwbare dienst goud waard." },
+    { "title": "Moet er iemand tekenen?", "body": "Erkenning of aansprakelijkheid maakt het moeilijk voor pure software, en verdedigbaar voor jou." }
+  ],
+  "steps": [
+    { "title": "Zoek je partner", "body": "Ben je vakexpert? Zoek een AI-engineer. Ben je AI-engineer? Zoek een senior vakexpert. Samen, als gelijkwaardige partners." },
+    { "title": "Kies een smalle niche", "body": "Eén type dossier voor één type klant. Hoe smaller, hoe sneller je de beste bent." },
+    { "title": "Toets aan de scorecard", "body": "Loop de acht vragen af. Twijfel je op meer dan twee? Zoek verder." },
+    { "title": "Lever eerst grotendeels manueel", "body": "Je eerste klanten betalen voor het resultaat. Automatiseer wat je telkens herhaalt." },
+    { "title": "Prijs per resultaat", "body": "Vaste prijs per dossier, project of maand. Nooit per uur." },
+    { "title": "Breid je scope uit", "body": "Eens de machine draait: aangrenzende diensten of klantsegmenten." }
+  ]
+}

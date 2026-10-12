@@ -1,0 +1,6 @@
+[
+  { "domein": "Boekhouding", "naam": "Die van de boekhouding", "omschrijving": "Boekhoudkantoor uitsluitend voor managementvennootschappen, met een eigen app en automatisering.", "aftekening": "Erkende boekhouders", "prijs": "Vaste jaarprijs", "basis": "Gent", "url": "https://www.dievandeboekhouding.be/" },
+  { "domein": "Contractrecht", "naam": "Falcon", "omschrijving": "AI-native advocatenkantoor voor commerciële contracten van startups en scale-ups, terug binnen 24 uur.", "aftekening": "Advocaat", "prijs": "Vaste maandprijs", "basis": "Gent", "url": "https://www.falcon.law/" },
+  { "domein": "Calculatie", "naam": "Estimore", "omschrijving": "Neemt de volledige calculatie van wegenisaanbestedingen over, van BOSA-selectie tot geprijsde meetstaat.", "aftekening": "Senior calculator", "prijs": "Per project", "basis": "Aalst", "url": "https://www.estimore.com/" },
+  { "domein": "M&A-recht", "naam": "Duely", "omschrijving": "Juridisch werk bij overnames: datarooms, due diligence en documentreview, rechtstreeks voor de klant.", "aftekening": "Juridisch team", "prijs": "Per pagina", "basis": "Gent", "url": "https://www.duely.ai/" }
+]

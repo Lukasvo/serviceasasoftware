@@ -1,0 +1,18 @@
+{
+  "_uitleg": "Scores: 2 = sterk, 1 = gemiddeld, 0 = zwak. Volgorde: data in/uit, objectief, al uitbesteed, betaalt, volume. 'speler' leeg laten = witte vlek.",
+  "diensten": [
+    { "dienst": "Boekhouding voor een niche", "scores": [2, 2, 2, 1, 2], "speler": "Die van de boekhouding", "url": "https://www.dievandeboekhouding.be/" },
+    { "dienst": "Contractreview B2B", "scores": [2, 1, 2, 2, 2], "speler": "Falcon", "url": "https://www.falcon.law/" },
+    { "dienst": "M&A due diligence en datarooms", "scores": [2, 1, 2, 2, 1], "speler": "Duely", "url": "https://www.duely.ai/" },
+    { "dienst": "Calculatie van aanbestedingen", "scores": [2, 2, 1, 2, 2], "speler": "Estimore", "url": "https://www.estimore.com/" },
+    { "dienst": "Subsidiedossiers", "scores": [2, 1, 2, 2, 1] },
+    { "dienst": "Tenderteksten en offertedossiers", "scores": [2, 1, 1, 2, 2] },
+    { "dienst": "Loonadministratie voor een niche", "scores": [2, 2, 2, 1, 2] },
+    { "dienst": "GDPR- en NIS2-compliancedossiers", "scores": [2, 2, 1, 2, 1] },
+    { "dienst": "CSRD/ESG-rapportering voor KMO's", "scores": [2, 1, 1, 1, 1] },
+    { "dienst": "Beëdigde en juridische vertaling", "scores": [2, 2, 2, 1, 2] },
+    { "dienst": "Merk- en octrooiaanvragen", "scores": [2, 2, 2, 2, 1] },
+    { "dienst": "Debiteurenbeheer en incasso", "scores": [2, 2, 2, 1, 2] },
+    { "dienst": "Douane-aangiftes", "scores": [2, 2, 2, 1, 2] }
+  ]
+}
