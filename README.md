@@ -1,4 +1,4 @@
-# serviceasasoftware.be
+# serviceassoftware.be
 
 Een open, niet-commerciële community over **Service-as-Software** in België: bedrijven die het eindresultaat van een vakdienst leveren (een nagekeken contract, een geprijsde offerte, een afgesloten boekhouding), waarbij AI het meeste werk doet en een erkende expert aftekent.
 

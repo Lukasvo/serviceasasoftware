@@ -64,9 +64,9 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>serviceasasoftware.be · Service-as-Software in België</title>
+<title>serviceassoftware.be · Service-as-Software in België</title>
 <meta name="description" content="Open community over Service-as-Software in België: wat het is, welke diensten zich ervoor lenen, wie het al doet en hoe je er een startup rond bouwt.">
-<meta property="og:title" content="serviceasasoftware.be">
+<meta property="og:title" content="serviceassoftware.be">
 <meta property="og:description" content="Op zoek naar een startup-idee? Alles over Service-as-Software in België.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2312151A'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%238FA2FF'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,9 +91,9 @@ const html = `<!doctype html>
 
 <header class="top">
   <div class="wrap row">
-    <a href="#top" class="logo" aria-label="serviceasasoftware.be, naar boven">
+    <a href="#top" class="logo" aria-label="serviceassoftware.be, naar boven">
       <span class="mark" aria-hidden="true"><span></span></span>
-      <span>serviceasasoftware<b>.be</b></span>
+      <span>serviceassoftware<b>.be</b></span>
     </a>
     <nav aria-label="Hoofdmenu">
       <a href="#wat">Wat is het?</a>
@@ -238,7 +238,7 @@ const html = `<!doctype html>
 
 <footer>
   <div class="wrap row small">
-    <span>serviceasasoftware.be · een open, niet-commerciële community</span>
+    <span>serviceassoftware.be · een open, niet-commerciële community</span>
     <span>Een initiatief van <a href="https://www.linkedin.com/in/lukasvanorshoven/">Lukas Van Orshoven</a> · Inhoud vrij te hergebruiken (CC BY 4.0)</span>
   </div>
 </footer>
